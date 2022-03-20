@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+
+
+
+
+@media screen and (max-width:1024px){
+    .swiper-slide > .pc{display:none;}
+    .swiper-slide > .tab{display:block;}
+}
+
+
+
+
+
+@media screen and (max-width:767px){
+
+    .lnb{display: none;}
+    .menu{
+        top:0px; right:0px;
+        padding:44px;
+    }
+    .menu > li {
+        line-height: 1.5;
+    }
+    .menu a {font-size: 21px;}
+    .sub a {font-size: 18px;}
+    .new_title, .md_title,
+    .best_title, .insta_title{
+        width: 90%;
+    }
+    .new_title > li:first-child,
+    .md_title > li:first-child,
+    .best_title > li:first-child{
+        font-size: 30px;
+    }
+    .insta_title > li:first-child{
+        font-size: 26.5px;
+    }
+    .new_title > li:nth-child(2),
+    .md_title > li:nth-child(2), 
+    .best_title > li:nth-child(2){
+        position: absolute;
+        left:0px; bottom:-20px;
+        font-size: 15px;
+    }
+    .banner{
+        height:500px;
+        line-height: 40px;
+    }
+    .banner > p{font-size: 18px;}
+    .banner > p:nth-child(2){
+        font-size: 14px;
+    }
+    aside{right:20px;}
+    .t_footer{height:auto;}
+    .t_footer > ul, .b_footer > ul{
+        left:0;
+        transform: none;
+    }
+    .b_footer{height:auto;}
+    .b_footer img{
+        float: right;
+        padding:0px 20px;
+    }
+    .b_footer li{
+        padding-top:10px;
+    }
+    .f01{
+        width: 100%;
+        padding: 10px;
+    }
+    .f02, .f03{padding:10px;}
+    .f04{padding-bottom:10px;}
+    .f01 > ul {padding:0px; margin-top:10px;}
+    .fa-plus{right:0px;}
+    .fa-bars{margin:27.5px 0px 0px 10px;}
+
+
+
+
+
+    /* 엠디픽 */
+    .md_con{
+        width: 300px;
+    }
+    .md_con img{
+        width:300px;
+    }  
+    .md_con p a {
+        border-radius: 10px;
+    }
+    .md_con p:nth-child(4){
+        width:90%;
+        margin: 0px auto;
+    }
+    .md_con p:nth-child(5),
+    .md_con p:nth-child(6){
+        width:300px;
+        padding:5px 0;
+    }
+    .md_con > li {
+        height:744.2px
+    }
+    
+}
